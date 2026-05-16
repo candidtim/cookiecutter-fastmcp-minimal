@@ -12,7 +12,10 @@ Install the dependencies and run the application:
 
 And then open it at [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 
-Point your [MCP Inspector](https://modelcontextprotocol.io/docs/tools/inspector) to http://127.0.0.1:8000/mcp , or run the inspector directly with `fastmcp` CLI:
+Point the [MCP Inspector](https://modelcontextprotocol.io/docs/tools/inspector)
+to `http://127.0.0.1:8000/mcp`, or run the inspector directly with `fastmcp` CLI
+(you may need to clear the browser cache first if you previously used MCP
+connector with other configurations):
 
     uv run fastmcp dev inspector {{cookiecutter.package_name}}/__init__.py:create_server --reload
 
@@ -20,7 +23,8 @@ See [FastMCP - Running](https://gofastmcp.com/cli/running) for more ways to run 
 
 ## Prerequisites
 
-Python >=3.10
+- Python >=3.10
+- [uv](https://docs.astral.sh/uv/)
 
 ## Development environment
 

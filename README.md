@@ -32,9 +32,8 @@ All set! Run the application:
 
 And then open it at [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 
-Point your [MCP Inspector](https://modelcontextprotocol.io/docs/tools/inspector) to http://127.0.0.1:8000/mcp , or run the inspector directly with `fastmcp` CLI:
-
-    uv run fastmcp dev inspector mymcp/__init__.py:create_server --reload
+Point your [MCP Inspector](https://modelcontextprotocol.io/docs/tools/inspector)
+to `http://127.0.0.1:8000/mcp`.
 
 ## Features
 
