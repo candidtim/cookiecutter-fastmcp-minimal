@@ -95,6 +95,8 @@ If you do a change, use `make test` from root directory to test the updated temp
 Configuration of this entire project template is based on
 [FastMCP documentation](https://gofastmcp.com/getting-started/welcome) and is heavily
 inspired by [Flask](https://flask.palletsprojects.com/en/3.0.x/) and
-[Starlette](https://starlette.dev/) documentation. Please, note however, that
-this template is not endoprsed by any of the above and is not guaranteed to follow
-their recommndations precisely.
+[Starlette](https://starlette.dev/) documentation. (Flask, although not related
+to FastMCP, is an excellent example of how a larger application can be built on
+top of a microframework; Starlette is what FastMCP is built on). Please, note
+however, that this template is not endorsed by any of the above and is not
+guaranteed to follow their recommendations precisely.
