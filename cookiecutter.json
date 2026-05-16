@@ -1,0 +1,6 @@
+{
+  "application_name": "My MCP",
+  "package_name": "mymcp",
+  "use_ruff": "n",
+  "use_mypy": "n"
+}

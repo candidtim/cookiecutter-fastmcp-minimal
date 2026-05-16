@@ -1,0 +1,8 @@
+{
+    "cookiecutter": {
+        "application_name": "My MCP",
+        "package_name": "mymcp",
+        "use_ruff": "y",
+        "use_mypy": "y"
+    }
+}
